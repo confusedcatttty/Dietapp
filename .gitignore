@@ -1,0 +1,10 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境
+venv/
+.env
+
+# 忽略 Streamlit 密钥配置 (绝对不能上传这个！)
+.streamlit/secrets.toml
