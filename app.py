@@ -326,7 +326,7 @@ else:
                     now_time = datetime.now().strftime("%H:%M")
                     full_date = f"{log_date_str} {now_time}"
                     
-                    real_deficit = target_cal - act_cal - total_c
+                    real_deficit = target_cal - exe - total_c
                     tp = sum([x['p'] for x in st.session_state.meal_tray])
                     tc = sum([x['c'] for x in st.session_state.meal_tray])
                     tf = sum([x['f'] for x in st.session_state.meal_tray])
